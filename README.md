@@ -22,7 +22,7 @@
 ### Data preprocess
 
 #### word2vec
-```python
+```
 python w2v.py \
     --num_porcess 8 \
     --embedding_size 100 \
