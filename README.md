@@ -88,7 +88,7 @@ python tf_lstm_variants.py \
 ```
 - Basic model structure
 
-![image](https://github.com/shishishu/tensorflow-nlp-sentiment-analysis/blob/master/images/lstm.png)
+![image](https://github.com/shishishu/tensorflow-nlp-sentiment-analysis/blob/master/images/lstm.PNG)
 
 - Result comparison on valid dataset
 
@@ -125,7 +125,7 @@ python tf_multiatten_estimator.py \
 ```
 - Model structure
 
-![image](https://github.com/shishishu/tensorflow-nlp-sentiment-analysis/blob/master/images/multiatten.png)
+![image](https://github.com/shishishu/tensorflow-nlp-sentiment-analysis/blob/master/images/multiatten.PNG)
 
 - Result: accuracy_score: 0.7575
 
@@ -144,10 +144,10 @@ curl -H "Content-type: application/json" -X POST -d '{"instances": [{"sen_encode
 ```
 - result
 
-![image](https://github.com/shishishu/tensorflow-nlp-sentiment-analysis/blob/master/images/docker.png)
+![image](https://github.com/shishishu/tensorflow-nlp-sentiment-analysis/blob/master/images/docker.PNG)
 
 ### Multi-task-learning (idea provided only)
-![image](https://github.com/shishishu/tensorflow-nlp-sentiment-analysis/blob/master/images/mtl.png)
+![image](https://github.com/shishishu/tensorflow-nlp-sentiment-analysis/blob/master/images/mtl.PNG)
 
 ### Reference
 1. [AI Challenger 2018：细粒度用户评论情感分析冠军思路总结](https://tech.meituan.com/2019/01/25/ai-challenger-2018.html)
