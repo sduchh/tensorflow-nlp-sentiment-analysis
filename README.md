@@ -39,7 +39,7 @@ Check word2vec training via synonym finding:
 ![image](https://github.com/shishishu/tensorflow-nlp-sentiment-analysis/blob/master/images/w2v.png)
 
 #### data pipeline
-```python
+```
 python data_pipeline.py \
     --num_process 8 \
     --task_type train \
@@ -70,7 +70,7 @@ File pipeline example:
 ### Single-task-learning
 
 #### LSTM and its variants
-```python
+```
 python tf_lstm_variants.py \
     --embedding_size 100 \
     --num_lstm_units 100 \
@@ -100,7 +100,7 @@ deeplstm | 0.6552 | 0.7645
 [aeatlstm](https://aclweb.org/anthology/D16-1058) | 0.6930 | 0.7741
 
 #### Multi-head attention (ref to [Encoder Structure in Transformers](https://arxiv.org/abs/1706.03762))
-```python
+```
 python tf_multiatten_estimator.py \
     --embedding_size 100 \
     --num_lstm_units 100 \
@@ -131,7 +131,7 @@ python tf_multiatten_estimator.py \
 
 ##### Tensorflow serving with Docker
 - export model
-```python
+```
 python tf_multiatten_estimator.py --task_type 'export'
 ```
 - run in docker
